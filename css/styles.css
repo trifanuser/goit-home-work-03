@@ -10,6 +10,7 @@
        --iris:#404BBF;
       --salte: #434455;
       --black: #000000;
+      --cornflwoer:#E7E9FC;
 }
 .section {
     padding-top: 94px;
@@ -328,14 +329,6 @@ background-color: var(--iris);
      left: 482px;
      padding: 0px, 1.33px, 0px, 1.33px;
 }
-
-.li .container
-{
-    height: 420px;
-    border: 1px; 
-    padding-bottom:  48px;
-}
-
 .projects-row-one-list,
 .projects-row-two-list, 
 .projects-row-three-list {
@@ -350,9 +343,11 @@ background-color: var(--iris);
     gap:24px;
     background: var(--white);
 }
-.h4 .container {
-    width: 290px;
-height: 24px;
+ .cards-image {
+    height: 300px;
+ }
+.cards-portofolio .h4 {
+ width: 290px;
 styleName: Header 3;
     font-family: Roboto;
     font-size: 20px;
@@ -361,14 +356,15 @@ styleName: Header 3;
     letter-spacing: 0.02em;
     color: var(--salte); 
 }
-   
-.p .container {
-width: 30px;
-height: 24px;
+   .cards-portofolio .p {
 styleName: Body;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: left;
+}
+.cards-portofolio {  
+border: 1px solid var(--cornflwoer);
 }
