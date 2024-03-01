@@ -28,10 +28,23 @@
         letter-spacing: 0.03em;
         text-align: left;
         color: var(--iris);
+        margin: 0 auto;
 }
 
+.section-header{
+    margin: 0 auto;
+}
+.content-header{
+    width: 1440px;
+    margin: 0 auto;
+background-color:var(--white);
+ border: 0px, 0px, 1px, 0px;
+border-bottom: 1px solid var(--cornflwoer);
+}
 .section-top-line { 
-  display: flex;
+    width:1440px;
+    margin: 0 auto;
+    display: flex;
         flex-direction: row;
         justify-content: center;
         align-content: center;
@@ -42,8 +55,6 @@
 
 .logo {  
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;     
     }
 
 .web {
@@ -64,10 +75,11 @@
         text-align: left;
         color: var(--navy-blue);
 }
-.web:hover,
+.logo:hover,
 :focus {
-    color: var(--salte);
+    background-color: var(--salte);
 }
+
 .nav-list {  
     list-style-type: none;
     list-style: Body Medium;
@@ -81,32 +93,30 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-align-content: center;
-    margin-left: 76px;
-    gap:40px;  
+    align-content: center;
+    gap:40px;
     color:var(--navy-blue);
 }
 
 
-.nav-list .link:focus,
-.nav-list .link:hover
- {
-    color:var(--navy-blue);
+
+.nav-list .buton-contacts:hover {
+    background-color: var(--navy-blue);
 }
 
 .nav-list .buton-contacts:hover {
-    background-color:var(--navy-blue);
+    background-color:var(--iris);
 }
 .contacts-section {
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
     align-content:center;
+    padding-left: 332px;
     gap:40px;  
   }
 .contacts-email {
-    width: 153px;
-    padding-left: 332px;
+    
     padding-top: 24px;
     padding-bottom: 24px;
     list-style: Body;
@@ -121,8 +131,7 @@ align-content: center;
 .contacts-email:hover, :focus {
     color: var(--salte);
 }
-.contacts-phone { 
-width: 151px;
+.contacts-phone {
 padding-top:24px;
 padding-bottom: 24px;
     styleName: Body;
@@ -140,7 +149,9 @@ padding-bottom: 24px;
 .hero-section-beckground { 
     width: 1440px;
     height: 600px;
-    background-color:var(--black);
+    background-color:var(--black);  
+    margin: 0 auto;
+    
 }
 .efective-solution {
 padding-top: 188px;
@@ -153,9 +164,10 @@ padding-top: 188px;
     letter-spacing: 0.02em;
     text-align: center;
     color:var(--white);
+  
 }
 .buton-order {  
-margin-left: 536px;
+margin-left: 636px;
 width:  169px;
 height:  56px;
 background-color:var(--iris);  
@@ -163,6 +175,7 @@ padding: 16px, 32px, 16px, 32px;
 border-radius: 4px ;
 gap: 10px;
 box-shadow: 0px 4px 4px 0px #00000026;
+display: block;
 }
 
 .one-section-list {  
@@ -234,7 +247,6 @@ background-color: var(--cloud);
         letter-spacing: 0.02em;
         text-align: center;
 }
-
 .our-team-list  { 
 list-style-type: none; 
 display: flex;
@@ -260,11 +272,13 @@ padding-right: 156px;
     letter-spacing: 0.02em;
     color:var(--salte);
 }
-.footer  {
-    display: block;
+.footer-background  {
+     width: 1440px;
+     display: block;
     box-sizing: border-box;
-     background-color: var(--navy-blue);  
-   height: 312px;
+    margin: 0 auto;
+    background-color: var(--navy-blue);  
+    height: 312px;
 }
 .logofooter{
     padding-top: 100px;
@@ -277,6 +291,7 @@ padding-right: 156px;
         line-height: 21px;
         letter-spacing: 0.03em;
         text-align: left;
+
 }
 .logofooter .studiologo {
 color:var(--cloud);
@@ -305,11 +320,14 @@ color:var(--cloud);
     width: 586px;
     height: 48px;
     display: flex;
-    flex-direction: row;
-     padding-left: 427px;
+    justify-content: center;
+    align-content: center;
      padding-top: 96px;
      padding-bottom: 72px;
      gap:24px;
+}
+.buton-filtres {
+background-color: var(--iris);
 }
 .active-buton
 {
